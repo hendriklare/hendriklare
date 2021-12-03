@@ -12,7 +12,7 @@ const Home = () => {
     const getItemRequest = async (itemNumber: string) => {
         axios.get(`https://localhost:44354/test/item?itemNumber=${itemNumber}`, { headers: { "Content-Type": "application/json" } }).then(response => { setItemData(response.data) })
     }
-
+    //
     const [orderNumber, setOrderNumber] = useState<string>();
     const [itemNumber, setItemNumber] = useState<string>();
     const [orderData, setOrderData] = useState<Order>({} as Order);

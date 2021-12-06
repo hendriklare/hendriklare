@@ -41,7 +41,7 @@ const Home = () => {
     }, [setItemNumber])
     console.log(itemNumber)
     //test
-
+    console.log(itemNumber)
 
 
     return (

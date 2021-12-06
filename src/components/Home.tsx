@@ -40,8 +40,8 @@ const Home = () => {
         console.log(e.target.value)
     }, [setItemNumber])
     console.log(itemNumber)
-    console.log(itemNumber)
-    console.log(itemNumber)
+    //test
+
 
 
     return (

@@ -39,10 +39,6 @@ const Home = () => {
         setItemNumber(e.target.value);
         console.log(e.target.value)
     }, [setItemNumber])
-    console.log(itemNumber)
-    //test
-    console.log(itemNumber)
-
 
     return (
         <div className="html body" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
